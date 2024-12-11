@@ -147,7 +147,7 @@ def execute_commands(commands: list, position: list, clipboard: list, array: lis
                 position[0] -= 1
         
         commands.pop(0)
-
+#
 
 def interpretate(path: str) -> None: 
     """Takes a string with the path to the script and interpretates it."""
